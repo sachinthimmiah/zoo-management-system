@@ -1,0 +1,91 @@
+ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Condensed:wght@700&display=swap');
+
+
+*
+{
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+body
+{
+    min-height: 100VH;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    background-image: url(../Z_MS/6.jpg);
+
+
+}
+.container
+{
+    position: relative;
+    perspective: 1000px;
+
+}
+.container .slide-container .slide
+{
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 5px 10px #3337;
+    width: 450px;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+
+}
+.container .slide-container .slide .icon
+{   
+    position: absolute;
+    top:10px;
+    right:15px;
+    color: #3498db;
+    font-size: 90px;
+
+}
+
+
+.container .slide-container .slide  .user
+{
+    display: flex;
+    align-items: center;
+}
+.container .slide-container .slide img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.container .slide-container .slide  .user .user-info h3
+{
+    color: #333;
+    font-size: 20px;
+
+}
+
+.container .slide-container .slide  .user .user-info .stars i
+{
+color: #3498db;
+font-size: 15px;
+}
+
+.container .slide-container .slide  .text
+{
+    color: #333;
+    font-size: 14px;
+    padding-top: 15px;
+    font-style: italic;
+}
+ 
+ 

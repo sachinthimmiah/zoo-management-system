@@ -1,0 +1,155 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    align-items: center;
+    
+   
+}
+ 
+
+header
+{
+    position:fixed;
+    top:0;right:0;left:0;
+    background :rgb(103, 103, 224);
+    box-shadow:3 5px 10px rgba(0,0,0,.1);
+    padding: -20px 2%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index:1000;
+    padding-right: 80px;
+
+
+}
+header .logo
+{  
+     margin-left: 60px;
+     text-decoration:none;
+     font-weight: bold;
+     font-size: 30px;
+     color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header .navbar ul
+{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+    padding-left:0px;
+    
+    
+}
+header .navbar ul li a
+{
+    
+    padding-top: 30px;
+    font-size: 20px;
+    padding: 18px; 
+    color:#333;
+    display: block;
+    font-family:Arial,Helvetica,sans-serif;
+    text-decoration:none;
+    
+    font-weight: bold;
+    
+}
+header .navbar ul li a:hover
+{
+    background: #333;
+    color: #fff;
+    
+
+}
+header .navbar ul li ul
+{
+    position:absolute;
+    left:0;
+    width:160px;
+    background:#fff;
+    display:none;
+    
+
+}
+header .navbar ul li ul li
+{
+    width:100%;
+    border-top:4px solid rgba(0,0,0,.1);
+}
+
+header .navbar ul li ul li ul
+{
+    left:200px;
+    top:0;
+}
+header .navbar ul li:focus-within >ul,
+header .navbar ul li:hover > ul
+{
+    display:initial;
+
+}
+.main_img
+{
+    width:100%;
+    height: 110vh;
+}
+.main_img
+{
+   width:100%;
+   height:800px;
+}
+.section1
+{
+    padding-top: 0px;
+}
+.img_text
+{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    color: #fff;
+    background-color: blue;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.main_ig
+{
+    width:400px;
+    height:250px;
+    padding-left: 40px;
+     
+}
+.container1
+{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.section2
+{
+    padding-left: 150px;
+    padding-bottom: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-right: 20px;
+
+}
+ 
+.type-text
+{
+ align-items: center;
+ color: black;
+ font-size: 15px;
+ /* background-color:; */
+ }
+
+
